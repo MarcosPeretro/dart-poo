@@ -3,7 +3,7 @@ import 'Notificacao.dart';
 class Email extends Notificacao{
 
   @override
-  void enviar(mensagem) {
+  void enviar(String mensagem) {
     // TODO: implement enviar
     print(mensagem);
   }

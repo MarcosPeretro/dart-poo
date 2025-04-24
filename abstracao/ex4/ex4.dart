@@ -2,8 +2,8 @@ import 'CLT.dart';
 import 'PJ.dart';
 
 void main(List<String> args) {
-  CLT clt = new CLT(2000, 10, "Todos");
-  PJ pj = new PJ(4000);
+  CLT clt = new CLT("pedro", 2000, 10, 1000);
+  PJ pj = new PJ("pedro", 4000);
 
   clt.caclSalarioLiquido();
   clt.exibirBeneficios();

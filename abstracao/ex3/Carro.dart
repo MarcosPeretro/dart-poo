@@ -1,4 +1,6 @@
-class Carro {
+import 'Veiculo.dart';
+
+class Carro implements Veiculo{
 
   String tipo;
   int qtdRodas;

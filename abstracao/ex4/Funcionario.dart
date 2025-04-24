@@ -1,10 +1,15 @@
 abstract class Funcionario {
+  String nome;
   double salario;
-  double INSS = 100;
 
-  Funcionario(this.salario);
+  Funcionario(this.nome, this.salario);
 
-
-  void caclSalarioLiquido();
-  void exibirBeneficios();
+  void exibirBeneficios(){
+    print("Funcionario : $nome");
+    print("Salario base : $salario");
+    print("Salario liquido : ${caclSalarioLiquido()}");
+  }
+  
+  double caclSalarioLiquido();
+  
 }

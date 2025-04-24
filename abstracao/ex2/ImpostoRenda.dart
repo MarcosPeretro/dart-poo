@@ -1,6 +1,6 @@
 import 'Imposto.dart';
 
-class ImpostoRenda implements Imposto{
+class ImpostoRenda extends Imposto{
 
   @override
   double calcular(double valor) {
@@ -8,7 +8,5 @@ class ImpostoRenda implements Imposto{
     return valor * 0.15; 
   }
 
-  void exibirImposto(double valor){
-    print("Imposto de renda : ${calcular(valor)}");
-  }
+
 }
