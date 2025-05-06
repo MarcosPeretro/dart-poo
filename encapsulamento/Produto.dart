@@ -20,7 +20,7 @@ class Produto {
     if (novoPreco > 0) {
       _preco = novoPreco;
     }else{
-      print("Preco não pode ficar vazio");
+      print("Preco inválido");
     }
   }
 
