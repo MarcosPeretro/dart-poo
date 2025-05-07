@@ -19,9 +19,7 @@ class quadrado implements calculaArea{
   double lado;
 
   quadrado(this.lado);
-  double area(){
-    return lado * lado;
-  }
+  double area() => lado * lado;
 }
 
 class retangulo implements calculaArea {
@@ -29,9 +27,7 @@ class retangulo implements calculaArea {
   double altura;
 
   retangulo(this.largura, this.altura);
-  double area() {
-    return largura * altura;
-  }
+  double area() => largura * altura;
 }
 
 void main(List<String> args) {

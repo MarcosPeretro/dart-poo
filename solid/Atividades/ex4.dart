@@ -19,9 +19,15 @@ abstract class Alimentador{
   void comer();
 }
 
-class Robo implements Trabalhador{
+class Humano implements Trabalhador, Alimentador{
   @override
-  void trabalhar() {
-    print("Robô trabalhando");
-  }
+  void trabalhar() => print("Humano trabalhando");
+
+  @override
+  void comer() => print("Humano comendo");
+}
+class Robo implements Trabalhador{
+
+  @override
+  void trabalhar() => print("Robo trabalhando");
 }

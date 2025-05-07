@@ -1,5 +1,5 @@
 class salvarUser {
-  salvarUsuario(String nome) {
+  void salvarUsuario(String nome) {
     print('Usuário $nome salvo no banco de dados.');
   }
 }

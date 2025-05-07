@@ -5,21 +5,15 @@ abstract class Cargo{
 
 class gerente implements Cargo{
   @override
-  double calcular() {
-    return 5000;
-  }
+  double calcular() => 5000;
 }
 class desenvolvedor implements Cargo{
   @override
-  double calcular() {
-    return 4000;
-  }
+  double calcular() => 4000;
 }
 
 class calculaSalario{
-  double calcular(Cargo cargo){
-    return cargo.calcular();
-  }
+  double calcular(Cargo cargo) => cargo.calcular();
 }
 
 void main(List<String> args) {
