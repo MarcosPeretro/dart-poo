@@ -4,7 +4,7 @@
   uma classe conhece a outra.
   exemplo: Professor <--> Departamento 
   O professor trabalha em um departamento
-  Departamento conhece professo, mas eles vivem independentementent
+  Departamento conhece professo, mas eles vivem independentementente
  */
 
 class Professor{
